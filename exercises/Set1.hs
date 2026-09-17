@@ -123,7 +123,7 @@ sumTo n = n + sumTo (n - 1)
 
 power :: Integer -> Integer -> Integer
 power 0 k = 1
-power n k = n ^ K
+power n k = n ^ k
 
 ------------------------------------------------------------------------------
 -- Ex 11: ilog3 n should be the number of times you can divide given
